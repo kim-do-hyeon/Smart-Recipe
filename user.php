@@ -63,10 +63,10 @@ else
 				<?php
                     error_reporting(E_ALL);
                     ini_set("display_errors", 1);
-                    $host = 'localhost';
-                    $user = 'root';
-                    $pw = 'PENTAL2525@@!!';
-                    $dbName = 'syswow64';
+                    $host = '';
+                    $user = '';
+                    $pw = '';
+                    $dbName = '';
                     $mysqli = new mysqli($host, $user, $pw, $dbName);
                     
                     $result = mysqli_query($mysqli,'select * from User');
